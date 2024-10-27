@@ -1,0 +1,19 @@
+# 풀이예제 1
+A = int(input())  
+B = input()       
+
+AxB2 = A * int(B[2])
+AxB1 = A * int(B[1])
+AxB0 = A * int(B[0])
+AxB = A * int(B)
+
+print(AxB2, AxB1, AxB0, AxB, sep ='\n')
+
+# 풀이예제 2
+a = int(input())
+b = int(input())
+
+print(a * (b % 10))
+print(a * (b % 100 // 10))
+print(a * (b // 100))
+print(a * b)
